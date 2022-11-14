@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Account</fullName>
+    <active>true</active>
+    <description>For customers and prospects</description>
+    <label>Customer Account</label>
+    <picklistValues>
+        <picklist>skills__c</picklist>
+        <values>
+            <fullName>Apex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Python</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

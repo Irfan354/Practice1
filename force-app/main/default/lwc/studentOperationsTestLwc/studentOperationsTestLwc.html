@@ -1,0 +1,59 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            Create a New Student
+        </h2>
+
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="name" onchange={valueChanged} value={name}></lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Fathers Name" onchange={valueChanged} value={fathersName}>
+            </lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="number" label="English" onchange={valueChanged} value={English}></lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="number" label="Telugu" onchange={valueChanged} value={Telugu}></lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="number" label="Hindi" onchange={valueChanged} value={Hindi}></lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="number" label="Maths" onchange={valueChanged} value={Maths}></lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="number" label="Science" onchange={valueChanged} value={Science}></lightning-input>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="number" label="Social" onchange={valueChanged} value={Social}></lightning-input>
+        </div>
+<!--
+        <template if:true={afterSave}>
+            <template for:each={result} for:item="stud">
+                <div key={stud.Id}>
+                    <div class="slds-p-around_medium lgc-bg">
+                        <lightning-input type="number" label="Sum" value={stud.sum__c}></lightning-input>
+                    </div>
+                    <div class="slds-p-around_medium lgc-bg">
+                        <lightning-input type="number" label="Average" value={stud.Average__c}></lightning-input>
+                    </div>
+                    <div class="slds-p-around_medium lgc-bg">
+                        <lightning-input type="text" label="Class" value={stud.Class__c}></lightning-input>
+                    </div>
+                    <div class="slds-p-around_medium lgc-bg">
+                        <lightning-input type="text" label="Result" value={stud.Result__c}></lightning-input>
+                    </div>
+                </div>
+            </template>
+        </template>
+    -->
+    </div>
+
+    <!-- Brand variant: Identifies the primary action in a group of buttons -->
+    <lightning-button variant="brand" label="Save" title="Save" onclick={handleOnSave} class="slds-m-left_x-small">
+    </lightning-button>
+
+
+</template>

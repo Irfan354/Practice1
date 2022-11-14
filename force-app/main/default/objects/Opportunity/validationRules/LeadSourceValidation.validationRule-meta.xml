@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSourceValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(
+ ISBLANK(TEXT(LeadSource)))   &amp;&amp;  
+NOT( ISPICKVAL(StageName , &apos;Closed Won&apos;))</errorConditionFormula>
+    <errorMessage>the value  u selected is error</errorMessage>
+</ValidationRule>

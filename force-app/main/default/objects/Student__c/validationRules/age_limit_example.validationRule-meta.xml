@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>age_limit_example</fullName>
+    <active>true</active>
+    <errorConditionFormula>Age__c &lt;20</errorConditionFormula>
+    <errorMessage>Age should greater than 20</errorMessage>
+</ValidationRule>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Authors_Country__c</fullName>
+    <externalId>false</externalId>
+    <label>Authors Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Country</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <controllingFieldValue>History</controllingFieldValue>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <controllingFieldValue>Computer</controllingFieldValue>
+            <valueName>Saudi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <controllingFieldValue>History</controllingFieldValue>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <controllingFieldValue>Maths</controllingFieldValue>
+            <controllingFieldValue>Computer</controllingFieldValue>
+            <valueName>UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <controllingFieldValue>History</controllingFieldValue>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <controllingFieldValue>Maths</controllingFieldValue>
+            <controllingFieldValue>Computer</controllingFieldValue>
+            <valueName>USA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maths</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

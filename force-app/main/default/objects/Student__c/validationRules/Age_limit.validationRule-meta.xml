@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_limit</fullName>
+    <active>false</active>
+    <errorConditionFormula>(Branch__r.Name  &lt;&gt;  &apos;EEE&apos; &amp;&amp; ( Age__c &lt; 20 ||  Age__c &gt; 25 ))</errorConditionFormula>
+    <errorDisplayField>Age__c</errorDisplayField>
+    <errorMessage>Your Age should be 20 to 25</errorMessage>
+</ValidationRule>

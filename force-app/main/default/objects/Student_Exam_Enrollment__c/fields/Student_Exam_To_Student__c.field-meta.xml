@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Exam_To_Student__c</fullName>
+    <externalId>false</externalId>
+    <label>Student Exam To Student</label>
+    <referenceTo>Student__c</referenceTo>
+    <relationshipLabel>Student Exam Enrollments</relationshipLabel>
+    <relationshipName>Student_Exam_Enrollments</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
